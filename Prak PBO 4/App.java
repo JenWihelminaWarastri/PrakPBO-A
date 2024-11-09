@@ -1,12 +1,12 @@
 public class App {
     
     public static void main(String[] args) {
-        Karyawan Wahyu = new Karyawan("Wahyu");
-        Dosen Amir = new Dosen("Amir");
-        Staff Melan = new Staff("Melan");
+        Binatang kambing = new Binatang ("kambing");
+        Kucing mudreg = new Kucing("mudreg");
+        Cemeng mocha = new Cemeng("mocha");
 
-        Wahyu.kerja();
-        Amir.kerja();
-        Melan.kerja();
+        kambing.bersuara();
+        mudreg.bersuara();
+        mocha.bersuara();
     }
 }
